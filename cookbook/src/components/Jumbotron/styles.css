@@ -1,0 +1,18 @@
+.my-jumbotron{
+    background-image: url(./main-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.titlu{
+    text-align: center;
+    padding: 210px 0;
+}
+
+.slogan{
+    text-align: center;
+    font-weight: bold;
+
+}
