@@ -1,15 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import AppNavbar from "./components/Navbar";
-import AppJumbotron from "./components/Jumbotron";
+import MainPage from "./pages/mainPage";
+import AddRecipePage from "./pages/addRecipePage";
 
 function App() {
-  return (
-    <div>
-        <AppNavbar/>
-        <AppJumbotron/>
-    </div>
-  );
+    return (
+        <MainPage/>
+    );
 }
 
 export default App;
