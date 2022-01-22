@@ -1,6 +1,5 @@
 import React from "react";
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
-import './styles.css';
+import {Navbar, Container, Nav} from "react-bootstrap";
 
 function AppNavbar () {
     return (
@@ -10,7 +9,7 @@ function AppNavbar () {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#addRecipePage">Add your recipe</Nav.Link>
+                        <Nav.Link href="addRecipePage">Add your recipe</Nav.Link>
                         <Nav.Link href="#login">Login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

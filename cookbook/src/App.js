@@ -1,6 +1,5 @@
 import './App.css';
-import MainPage from "./pages/mainPage";
-import AddRecipePage from "./pages/addRecipePage";
+import MainPage from "./pages/MainPage";
 
 function App() {
     return (

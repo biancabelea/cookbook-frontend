@@ -1,4 +1,4 @@
-import MyAddRecipe from "../components/AddRecipeForm";
+import MyAddRecipe from "../components/AddRecipeForm/AddRecipeForm";
 
 function AddRecipe () {
     return (
