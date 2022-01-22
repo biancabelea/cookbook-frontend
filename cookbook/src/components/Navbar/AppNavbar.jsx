@@ -1,6 +1,5 @@
 import React from "react";
 import {Navbar, Container, Nav} from "react-bootstrap";
-import './styles.css';
 
 function AppNavbar () {
     return (
@@ -10,8 +9,8 @@ function AppNavbar () {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Add your recipe</Nav.Link>
-                        <Nav.Link href="#link">Login</Nav.Link>
+                        <Nav.Link href="addRecipePage">Add your recipe</Nav.Link>
+                        <Nav.Link href="#login">Login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
